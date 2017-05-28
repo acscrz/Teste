@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Estudio Jan </title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet"  type="text/css" href="_css/semantic.min.css"/>
+        <link rel="stylesheet"  type="text/css" href="_css/estilo-contato.css"/>
+        <script type="text/javascript" src="_js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="_js/semantic.min.js"></script>
+    </head>
+    <body>
+
+
+
+
+        <div class="ui stackable container menu">
+            <div class="item left">
+                <!-- item logo-->
+                <img src="_imagens/logotipo-weone-peq.png">
+            </div>
+
+            <!-- Menu -->
+            <a class="item" href="index.html">Home</a>
+            <a class="item" href="servico.html">Serviços</a>
+            <a class="item" href="cursos.html">Cursos</a>
+            <a class="item" href="galeria.html">Galeria</a>
+            <a class="item" href="contato.html">Contato</a>
+
+
+        </div>
+
+        <div class="ui section divider"></div>
+        <br/>
+
+        <div class="ui vertically divided grid">
+            <div class="two column row">
+                <div class="column">
+
+                    <form class="ui form" id="formquest" method="post" style="background-image: url(_imagens/flor.jpg)">
+
+                        <h4 class="ui dividing header"> Formulário de Pesquisa</h4>
+
+                        <div class="field">
+                            <label for="nome"> Nome</label>
+                            <div class="two fields">
+                                <div class="field">
+                                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                                </div> 
+                                <div class="field">
+                                    <input type="text" name="sobrenome"  placeholder="Sobrenome">
+                                </div>  
+                            </div>
+                        </div>
+
+                        <div class=" field">
+                            <div class=" fields">
+
+                                <div class="six wide field" > <label for="mail"> E-mail</label>
+                                    <input type="email" name="email" id="mail" placeholder="e-mail">
+                                </div>
+
+
+                                <div class="six wide field">
+                                    <label for="fone"> Telefone</label> 
+                                    <input type="number" name="telefone" id="fone" placeholder="Telefone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" three row six column">
+
+                            <label for="obs"> Observações </label>
+                            <input type="text" name="obs" id="obs" placeholder="Digite aqui algum comentario">
+                        </div>
+
+
+                        <div class="ui section divider"></div>
+
+                        <div class="ui error message"></div>
+                        <div class="ui button submit" id="btn-enviar" > Enviar </div>                                                          
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+            $(function () {
+                $('#formquest').form({
+                fields: {
+
+                nome: {
+                identifier: 'nome',
+                        rules: [
+                        {
+
+                        type: 'empty',
+                                prompt: 'Por favor digite seu nome '
+                        }
+                        ]
+
+                },
+                        email: {
+                        identifier: 'mail',
+                                rules: [
+                                {
+
+                                type: 'email',
+                                        prompt: 'Por favor digite um e-mail valido '
+                                }
+                                ]
+                        },
+                        telefone: {
+                        identifier: 'fone',
+                                rules: [
+                                {
+
+                                type: 'number',
+                                        prompt: 'Por favor digite seu telefone valido '
+                                }
+                                ]
+                        },
+                        onSuccess: function (e) {
+                        e.preventDefault();
+                                alert('enviando formulário');
+                        }
+                    }
+                });
+            });
+
+        </script>
+
+        <div class="ui section divider"></div>
+
+
+    </body>
+</html>

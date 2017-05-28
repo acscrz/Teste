@@ -1,0 +1,9 @@
+@charset "utf8";
+
+body {
+                min-height: 100%;
+                padding: 0px;
+                background-image: url("../_imagens/flor.jpg");
+                background-size:cover;
+
+            }

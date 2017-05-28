@@ -1,0 +1,79 @@
+@charset "utf8";
+
+ .full {
+                min-height: 100%;
+                padding: 0px;
+                /*background: url("../_imagens/flor.jpg");*/
+                background-size:cover;
+
+            }
+
+            .pheader h1.ui.header{
+
+                margin-top: 180px;
+                margin-bottom: 5px;
+                font-size: 40pt;
+                font-weight: normal;
+            }
+            
+            h1{
+                
+                font-size: 30pt;
+                text-align: center;
+                
+            }
+            section {
+               height: 750px;
+                padding-top: 100px
+            }
+            
+            section#contato{
+                
+                background-color:#DC73FF;
+            }
+            
+            section#service{
+                
+                background-image: url('../_imagens/galeria-06.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .margintext {
+                              
+                margin-left: 0px;
+                margin-top: 5px;
+            }
+            .h2text{
+                
+                font-size: 30px;
+            }
+            
+            .h4text{
+                
+                font-size: 60px;
+            }
+            img#logo {
+                
+                width: 100px;
+            }
+            
+            
+            #slider4 li {
+                height: 700px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                
+            }
+            footer {
+                
+                background-color: #ffffff;
+                height: 50px;
+            }
+            
+            
+            footer#rodape p {
+                text-align: center;
+                margin-top: 0px;
+            }
