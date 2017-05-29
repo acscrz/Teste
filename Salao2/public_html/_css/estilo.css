@@ -1,71 +1,185 @@
 @charset "utf8";
 
+@font-face{
+ font-family:'fontb' ;
+ src: url("../_fonts/bitter-Italic.otf");
+ 
+  }
+        
+
+
  .full {
                 min-height: 100%;
                 padding: 0px;
-                /*background: url("../_imagens/flor.jpg");*/
+                /*background-image: url('../_imagens/nuven-rosa.jpg');*/
                 background-size:cover;
 
             }
 
-            .pheader h1.ui.header{
+/*            .pheader h1.ui.header{
 
                 margin-top: 180px;
                 margin-bottom: 5px;
                 font-size: 40pt;
                 font-weight: normal;
-            }
+            }*/
             
-            h1{
-                
-                font-size: 30pt;
-                text-align: center;
-                
-            }
+       
+           
             section {
-               height: 750px;
+               height: 800px;
                 padding-top: 100px
             }
             
-            section#contato{
+              section#header h1 {
+                font-family: fontb;
+               font-size: 60px;
+               margin-top: 10px;
+               margin-bottom: 0px;
+                text-align: left;
+                color:#black;
+                padding: 20px;
+               text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+               
+            } 
+             section#header h2 {
+                font-family: Arial, sans-serif;
+               font-size: 20px;
+               text-align: left;
+                color:#black;
+                padding: 20px;
+                margin-top: -30px;
+               text-shadow: 0px 0px 0px rgba(0,0,0,.5);
+               
+            } 
+            
+            section#header p {
+                font-family: Arial, sans-serif;
+               font-size: 20px;
+               text-align: left;
+               text-indent: 0px;
+                color:#black;
+                padding: 20px;
+                margin-top: -30px;
+               text-shadow: 0px 0px 0px rgba(0,0,0,.5);
+               
+            } 
+            
+             #slider4 li {
+/*              position: absolute;
+                left: 300px;
+                top: 50px; 
+                width: 600;*/
+
+                height: 600px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                margin-bottom: 50px;
+                margin-top: 0px;
                 
-                background-color:#DC73FF;
             }
+            
+                      
+            
             
             section#service{
                 
-                background-image: url('../_imagens/galeria-06.jpg');
+                background-image: url('../_imagens/mulher-sentada-praia.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+            
+            section#service h1 {
+                font-family: fontb;
+               font-size: 60px;
+               margin-top: 50px;
+               margin-bottom: 0px;
+                text-align: left;
+                color:#ffffff;
+                padding: 10px;
+               text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+               
+            }
+            
+             section#service h2 {
+                font-family: fontb;
+               font-size: 30px;
+               margin-top: 0px;
+               margin-bottom: 0px;
+                text-align: left;
+                color:#ffffff;
+                padding: 10px;
+               text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+               
+            }
+            
+            section#cursos{
+                
+                background-image: url('../_imagens/sky1.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
             }
             
-            .margintext {
-                              
-                margin-left: 0px;
-                margin-top: 5px;
+            section#cursos h1{
+               font-family: fontb;
+               font-size: 50px;
+               text-align: center;
+               color:#ffffff;
+               padding: 10px;
+               text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+               
             }
-            .h2text{
+            section#galeria {
                 
-                font-size: 30px;
+                background-image: url('../_imagens/mulher-deck.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
             }
             
-            .h4text{
-                
-                font-size: 60px;
+                         
+               
+          
+            section#galeria h1 {
+                font-family: fontb;
+               font-size: 50px;
+               margin-top: 10px;
+               margin-bottom: 600px;
+                text-align: left;
+                color:#ffffff;
+                padding: 20px;
+               text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+               
             }
+            section#contato{
+                
+                background-image: url('../_imagens/praia.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+               
+            }
+            
+            section#contato h1 {
+                
+                font-family: fontb;
+               font-size: 50px;
+                text-align: center;
+                color:#A333C8;
+               padding: 10px;
+               text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+               
+            }
+            
+            
+                      
             img#logo {
                 
                 width: 100px;
             }
             
             
-            #slider4 li {
-                height: 700px;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center center;
-                
-            }
+           
             footer {
                 
                 background-color: #ffffff;

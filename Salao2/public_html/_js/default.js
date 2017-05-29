@@ -4,7 +4,7 @@ $(document).ready(function(){
                     auto: true,
                     pager: false,
                     nav: false,
-                    speed: 500,
+                    speed: 1000,
                     namespace: "callbacks"
 
                 });
