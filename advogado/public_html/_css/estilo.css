@@ -1,0 +1,140 @@
+@charset "utf8";
+
+@font-face{
+ font-family:'fontb' ;
+ src: url("../_fonts/bitter-Bold.otf");
+ 
+  }
+        
+section {
+               height: 800px;
+                padding-top: 100px
+            }
+
+           
+  section#header h1{
+      
+      margin-top: 250px;
+      font-family: 'fontb';
+      text-align: left;
+      font-size: 50px;
+      color: #000000;
+      text-shadow: 1px 1px 1px rgba(255,255,255,.7);
+  }
+  
+  section#header h2{
+      
+      margin-top: -20px;
+      font-family: 'fontb';
+      text-align: left;
+      font-size: 30px;
+      color: #000000;
+      text-shadow: 1px 1px 1px rgba(255,255,255,.7);
+  }
+  
+  section#header h3{
+      
+      margin-top: 50px;
+      font-family: 'fontb';
+      text-align: center;
+      font-size: 40px;
+      color: #000000;
+      text-shadow: 1px 1px 1px rgba(255,255,255,.7);
+  }
+  
+  section#header h4{
+      
+      margin-top: -20px;
+      font-family: 'fontb';
+      text-align: center;
+      font-size: 30px;
+      color: #000000;
+      text-shadow: 1px 1px 1px rgba(255,255,255,.7);
+  }
+  section#header p{
+      
+      
+      font-family: 'fontb';
+      text-align: left;
+      font-size: 30px;
+      color: #000000;
+      text-shadow: 1px 1px 1px rgba(255,255,255,.7);
+  }
+  
+  section#header logoviana {
+      
+      height: 100px;
+      width: 200px;
+      
+      
+  }
+           
+            
+            
+             #slider4 li {
+                 
+                height: 600px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                margin-bottom: 50px;
+                margin-top: 0px;
+                
+            }
+            
+            section#servico {
+      
+            background-image: url("../_imagens/blue-geometric.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+      
+  }
+  
+  section#contato {
+      background-image: url("../_imagens/futuristic-background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+     
+  }
+  
+  
+  section#contato h4 {
+      color: #ffffff;
+      text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+      font-family: 'fontb';
+      font-size: 40px;
+      text-align: center;
+      text-shadow: 1px 1px 1px rgba(255,255,255,.7);
+  }
+  
+  section#contato label {
+      color: #ffffff;
+      text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+      font-family: 'fontb';
+      font-size: 20px;
+      text-align: left;
+      text-shadow: 1px 1px 1px rgba(255,255,255,.7);
+  }
+  
+  
+  
+   footer {
+                
+                background-color: #ffffff;
+                height: 50px;
+            }
+            
+            
+            footer#rodape p {
+                text-align: center;
+                margin-top: 0px;
+            }
+            
+                     
+            
+            
+                         
+               
+          
